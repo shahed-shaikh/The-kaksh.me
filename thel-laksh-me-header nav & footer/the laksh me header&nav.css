@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+	margin:0%;
+	padding:0%;
+}
+body{
+	 font-family: "Lexend Deca", sans-serif;
+  font-style: normal;
+  background-color:#e2e3ef;
+}
+header{
+	background-color:white;
+	width:100%;
+	display:flex;	
+	justify-content:space-around;
+
+}
+.parent-div{
+	background-color:white;
+	width:100%;
+	position:fixed;
+	z-index:1;
+}
+.header-1div{
+	width:65%;
+	height:70px;
+	display:flex;
+}
+.header-2div-under{
+	width:45%;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	margin-left:3%;
+}
+.header-2div-under-span{
+	border-radius:10px;
+	height:16px;
+	padding:9px;
+	display:flex;
+	align-items:center;
+	font-size:18px;
+	text-decoration:none;
+}
+.header-2div-under-span:hover{
+	border-radius:10px;
+	height:16px;
+	padding:9px;
+	display:flex;
+	align-items:center;
+	background-color:#e2e3ef;
+	color:blue;
+	font-weight:bold;
+}
+.Register-font-size{
+	font-size:20px;
+}
+.hearder-the{
+	margin-left:31px;
+}
+.header-1div-under{
+	width:15%;
+	font-weight:bold;
+	padding-top:1.2%;
+}
+.header-2div{
+	width:19.5%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.header-logo-button{
+	display:flex;
+	width:30%;
+	font-weight:bold;
+	align-items:center;
+	justify-content:center;
+	border-radius:10px;
+	background-color:white;
+	gap:4px;
+	border:1px solid black;
+	padding:2px;
+	font-size:16px;
+}
+.header-logo-div{
+	display:flex;
+	width:33%;
+	height:33px;
+	align-items:center;
+	justify-content:center;
+	border-radius:10px;
+}
+.icon-color-blue{
+	color:blue;
+}
+.header-icon{
+	font-size:29px;
+}
+.header-second-div{
+	display:none;
+}
+nav{
+	width:100%;
+	background-color:black;
+	height:60px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.nav-search-div{
+	width:49.5%;
+	background-color:white;
+	height:40px;
+	border-radius:10px;
+	align-items:center;
+	display:flex;
+	justify-content:end;
+	margin-left:4.1%;	
+}
+.nav-search-div:hover{
+	border:2px solid #FFCE12;
+}
+.input-search{
+	font-size:14px;
+	border:none;
+	width:91%;
+	outline:none;
+	margin-left:20px;
+}
+.search-icon-div{
+	width:9%;
+	height:40px;
+	background-color:#FFCE12;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	color:white;
+}
+.search-icon{
+	color:black;
+	font-size:24px;
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+	margin:0%;
+	padding:0%;
+}
+body{
+	 font-family: "Lexend Deca", sans-serif;
+  font-style: normal;
+  background-color:#e2e3ef;
+}
+footer{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	font-size:14.4px;
+	background-color:#232F3E;
+	color:white;
+	padding-top:2%;
+}
+.footer-first-div{
+	width:80%;
+	display:flex;
+	gap:10%;
+	margin:auto;
+}
+.footer-list{
+	list-style-type:none;
+	line-height:1.7;
+	width:13%;
+	min-height:300px;
+}
+.Domain-Areas{
+	list-style-type:none;
+	line-height:1.7;
+	width:13%;
+	min-height:300px;
+}
+.footer-list-Registered{
+	list-style-type:none;
+	line-height:1.7;
+	width:30%;
+}
+.footer-list-Registered{
+	list-style-type:none;
+	min-height:300px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;	
+}
+.list-address{
+	list-style-type:none;
+	line-height:1.4;
+}
+.About{
+	font-weight:bold;
+	font-size:20px;
+}
+.Phone{
+	line-height:1.2;
+	padding:8%;
+	padding-left:0%;
+}
+.footer-list-Registered-address{
+	display:none;
+}
+.footer-last-div{
+	height:70px;
+	width:15%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	margin-left:10%;
+}
+.footer-logos-div{
+	height:55%;
+	width:19%;
+	background-color:white;
+	border-radius:7px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+	color:black;
+}
+
+@media only screen and (max-width: 600px) {
+footer{
+	font-size:13px;
+	padding-bottom:3%;
+}
+.footer-first-div{
+	width:80%;
+	display:flex;
+	gap:7.3%;
+	background-color:;
+}
+.footer-list{
+	list-style-type:none;
+	line-height:1.7;
+	width:46%;
+	min-height:100px;
+}
+.footer-list-mediya{
+	width:60%;
+}
+.Domain-Areas{
+	list-style-type:none;
+	line-height:1.7;
+	width:64%;
+	min-height:100px;
+}
+.About{
+	font-weight:bold;
+	font-size:14px;
+}
+.footer-list-Registered{
+	display:none;
+}
+.footer-list-Registered-address{
+	height:200px;
+	width:84%;
+	display:block;
+	font-size:13px;
+	margin:10% 0% 0% 10%;
+}
+.mediya-Office{
+	
+}
+.Registered-mediya-office{
+	margin-top:5%;
+}
+.footer-last-div{
+	height:40px;
+	width:36%;
+	display:flex;
+	justify-content:space-between;
+}
+.footer-logos-div{
+	height:25px;
+	width:19%;
+	background-color:white;
+	border-radius:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:17px;
+	color:black;
+	background-color:white;
+}
+
+}
